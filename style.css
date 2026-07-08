@@ -1,5 +1,27 @@
-p
-{font-family:Verdana, Geneva, Tahoma, sans-serif ;}
 header{
-    background-color: rgb(196, 196, 196);
+    font-family: "Merriweather", serif;
+    width: 0 auto;
+    background-color: rgb(219, 218, 218);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+    width: 0 auto;
+    background-color: rgb(61, 75, 114);
+    color: rgb(243, 240, 222);margin: auto;
+}
+
+footer{
+    background-color: darkgrey;
+    max-width: auto;
+    margin-bottom: auto;
+}
+
+.unifil-link{
+    color: rgb(18, 221, 228);
 }
