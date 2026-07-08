@@ -2,7 +2,7 @@ header{
     font-family: "Merriweather", serif;
     width: 0 auto;
     background-color: rgb(219, 218, 218);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     display: flex;
     font-weight: 600;
@@ -24,4 +24,9 @@ footer{
 
 .unifil-link{
     color: rgb(18, 221, 228);
+}
+
+a{
+    justify-content: center;
+    text-align: center;
 }
