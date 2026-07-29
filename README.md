@@ -1,1 +1,1 @@
-# pensamento_computacional-codigo
+# pensamento_computacional_basico
