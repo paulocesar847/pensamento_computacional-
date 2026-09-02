@@ -4,7 +4,8 @@
 }
 .cabecalho {
     display: flex;
-    background-color: gray;
+    background-color: rgb(39, 38, 38);
+    color: rgb(222, 170, 12);
     justify-content: space-between;
     align-items: center;
     padding: 30px;
@@ -17,9 +18,9 @@
 }
 
 a {
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 nav h2 {
@@ -27,14 +28,15 @@ nav h2 {
 }
 
 .banner {
-    background-color: aquamarine;
-    height: 30vh;
+    background-color: rgb(53, 52, 52);
+    color: rgb(222, 180, 12);
+    height: 33vh;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
 }
 
 .banner h2 {
@@ -44,8 +46,10 @@ nav h2 {
 button {
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    color: blue;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -103,6 +107,7 @@ button {
     flex-wrap: wrap;
     max-width: 980px;
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
 .catalago {
