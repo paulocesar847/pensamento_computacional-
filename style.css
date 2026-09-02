@@ -1,32 +1,36 @@
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
 header{
-    font-family: "Merriweather", serif;
-    width: 0 auto;
-    background-color: rgb(219, 218, 218);
+    background-color: rgb(196, 196, 196);
+}
+
+.imagem{
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+}
+
+body{
     display: flex;
-    font-weight: 600;
-}
-
-main{
     justify-content: center;
-    text-align: center;
-    width: 0 auto;
-    background-color: rgb(61, 75, 114);
-    color: rgb(243, 240, 222);margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
-footer{
-    background-color: darkgrey;
-    max-width: auto;
-    margin-bottom: auto;
-}
-
-.unifil-link{
-    color: rgb(18, 221, 228);
-}
-
-a{
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
 }
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

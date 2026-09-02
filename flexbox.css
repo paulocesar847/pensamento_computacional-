@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.preto{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 5px;
+    border: 5px;
+}
+
+.vermelho{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 5px;
+    border-color: black;
+}
+
+.branco{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 5px;
+    border-color: black;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+body{
+    background-color: rgb(174, 166, 166);
+}
