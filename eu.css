@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    color: rgb(222, 170, 12);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 40px;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+}
+
+a:hover{
+    transform: scale(1.05);
+}
+
+a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+nav h2 {
+    font-size: 40px;
+}
+
+.banner {
+    background-color: rgb(53, 52, 52);
+    color: rgb(222, 180, 12);
+    height: 33vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.banner h2 {
+    font-size: 40px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size:small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prejeto img {
+    height: 180px;
+    width: 200px;
+}
+
+.projeto {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    min-height: 450px;
+    transition: 0.5s;
+}
+
+.produto p {
+    text-align: center;
+}
+
+.produto button {
+    padding: 10px;
+    width: 80%;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.produto button:hover {
+    transform: scale(1.01);
+}
+
+.produto:hover {
+    transform: scale(1.01);
+}
+
+.preco {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.projetos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.catalago {
+    padding: 60px 8%;
+}
+
+.catalago h2 {
+    text-align: center;
+}
+
+.rodape {
+    background-color: #152238;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 8%;
+}
+
+.rodape h3 {
+    color: #2563eb;
+}
+
+.rodape p {
+    color: white;
+}
+
+.catalogo-inicio{
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
