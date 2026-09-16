@@ -12,20 +12,15 @@
     height: 40px;
 }
 
-.links{
+.links {
     display: flex;
     gap: 50px;
-}
-
-a:hover{
-    transform: scale(1.05);
 }
 
 a {
     font-size: 22px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: 1s;
 }
 
 nav h2 {
@@ -112,7 +107,7 @@ button {
     flex-wrap: wrap;
     max-width: 980px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 .catalago {
@@ -136,14 +131,4 @@ button {
 
 .rodape p {
     color: white;
-}
-
-.catalogo-inicio{
-    font-size: 35px;
-    text-align: center;
-    padding: 25px;
-}
-
-html{
-    scroll-behavior: smooth;
 }

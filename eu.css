@@ -18,14 +18,14 @@
 }
 
 a:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 a {
     font-size: 22px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 nav h2 {
@@ -58,9 +58,15 @@ button {
     cursor: pointer;
 }
 
-.prejeto img {
-    height: 180px;
-    width: 200px;
+#meus-projetos{
+    width: 90%;
+}
+
+.projeto img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .projeto {
@@ -74,6 +80,14 @@ button {
     gap: 15px;
     min-height: 450px;
     transition: 0.5s;
+}
+
+.projeto:hover{
+    transform: scale(1.02);
+}
+
+.produto{
+    display: flex;
 }
 
 .produto p {
@@ -95,22 +109,13 @@ button {
     transform: scale(1.01);
 }
 
-.produto:hover {
-    transform: scale(1.01);
-}
-
-.preco {
-    color: #2563eb;
-    font-weight: bold;
-}
 
 .projetos {
     display: flex;
-    gap: 40px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 980px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
 }
