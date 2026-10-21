@@ -33,6 +33,41 @@
 //     console.log("Mestre")
 // }
 
-for(let i = 1; i <= 5; i++){
-    console.log(i)
+// let numero = 2
+
+// gerarTabuada(numero)
+
+// function gerarTabuada(numero){
+//     for(let i = 1; i <= 10; i++){
+//         console.log(i*numero)
+//     }
+// }
+
+let peso = parseFloat(prompt("Digite o seu peso (Kg): "))
+let altura = parseFloat(prompt("Informe a sua altura (m): "))
+gerarRelatorio(peso, altura)
+
+let resultado = calcularIMC(peso, altura)
+
+function calcularIMC(peso, altura){
+    return peso / (altura * altura)
+}
+
+function classificarIMC(resultado){
+    if(resultado < 18.5){
+        console.log("Abaixo do peso")
+    } else if(resultado > 18.5 && < 24.9){
+        console.log("Peso normal")
+    } else if(resultado > 25 && < 29.9){
+        console.log("Acima do peso")
+    } else if(resultado > 30 && < 34.9){
+        console.log("Obesidade 1")
+    } else if(resultado > 35 && < 39.9){
+        console.log("Obesidade 2")
+    } else if(resultado > 40 || = 40){
+        console.log("Obesidade 3")
+}
+
+function gerarRelatorio(){
+
 }
