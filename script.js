@@ -55,19 +55,22 @@ function calcularIMC(peso, altura){
 
 function classificarIMC(resultado){
     if(resultado < 18.5){
-        console.log("Abaixo do peso")
-    } else if(resultado > 18.5 && < 24.9){
-        console.log("Peso normal")
-    } else if(resultado > 25 && < 29.9){
-        console.log("Acima do peso")
-    } else if(resultado > 30 && < 34.9){
-        console.log("Obesidade 1")
-    } else if(resultado > 35 && < 39.9){
-        console.log("Obesidade 2")
-    } else if(resultado > 40 || = 40){
-        console.log("Obesidade 3")
+        alert("Abaixo do peso: " + resultado)
+    } else if(resultado > 18.5 && resultado < 24.9){
+        alert("Peso normal: " + resultado)
+    } else if(resultado > 25 && resultado < 29.9){
+        alert("Acima do peso: " + resultado)
+    } else if(resultado > 30 && resultado < 34.9){
+        alert("Obesidade 1: " + resultado)
+    } else if(resultado > 35 && resultado < 39.9){
+        alert("Obesidade 2: " + resultado)
+    } else if(resultado > 40 || resultado == 40){
+        alert("Obesidade 3: " + resultado)
+    }
 }
 
-function gerarRelatorio(){
+function gerarRelatorio(peso, altura){
+    let imc = calcularIMC(peso, altura)
+    classificarIMC(imc)
 
 }

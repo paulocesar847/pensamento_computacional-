@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(150, 150, 150);
+}
+
+.saude{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 40px;
+}
